@@ -1,0 +1,65 @@
+body {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    font-family: 'Orbitron', sans-serif;
+}
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: 2px solid;
+    border-radius: 10px;
+    margin: 50px auto 60px auto;
+    border-color: #fff;
+    box-shadow:
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #bc13fe,
+    0 0 20px #bc13fe,
+    0 0 25px #bc13fe,
+    0 0 30px #bc13fe,
+    0 0 30px #bc13fe;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: rgb(255, 255, 255);
+}
+
+.apple {
+    background-color: rgb(255, 4, 255);
+}
+
+button {
+    display: block;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    text-transform: uppercase;
+    background-color: #bc13fe;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 3px 3px 10px  rgb(85, 53, 82);
+    font-family: 'Orbitron', sans-serif;;
+}
+
+button:hover {
+    background-color: #b57fca;
+}
+
+.score {
+    margin-left: 44.5%;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
